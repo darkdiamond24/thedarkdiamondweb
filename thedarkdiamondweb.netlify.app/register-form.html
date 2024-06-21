@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/jpg" href="pOWlcgW-_400x400.png"/>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBSV6HX3R1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VBSV6HX3R1');
+</script>
+
+</script>
+<link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Form for subscribing to the email list.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-mail form</title>
+        </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Blog.html">Blog</a>
+            <a href="Contact.html">Contact</a>
+            <a href="About.html">About</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="FAQ.html">FAQ</a>
+          </div>
+        <h1>E-mail form</h1>
+        <hr/>
+        <p>If you would like to be part of the <b>e-mail list</b>, you can fill out the form below.</p>
+        <p>After filling out the form, you will receive a confirmation e-mail on Friday from 2-3 pm GMT.</p>
+        <form name="email-list" method="post" data-netlify="true"> 
+            <input type="hidden" name="form-name" value="email-list" />
+            <div><label>Username:<input name="username" type="text" min="1" max="100" required placeholder="Jane Smith" size="50px"/></label></div>
+            <div><label>E-mail:<input name="email" type="email" minlength="1" required placeholder="example@example.com" size="50px"></label</div>
+            <p>You will recieve email updates every week while subscribed to the email list.</p>
+              <div><label>Click <b>"Submit Query"</b> to submit the form</label>
+              <div><input type="submit"/></label></div>
+          </form>          
+    </body>
+</html>
